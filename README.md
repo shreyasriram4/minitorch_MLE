@@ -1,30 +1,52 @@
-# MiniTorch Module 4
+# MiniTorch MLE
 
-This module requires `fast_ops.py`, `cuda_ops.py`, `scalar.py`, `tensor_functions.py`, `tensor_data.py`, `tensor_ops.py`, `operators.py`, `module.py`, and `autodiff.py` from Module 3.
+Welcome to MiniTorch MLE, a fully-functional modified and simplified implementation of PyTorch. This project aims to provide a lightweight and easy-to-understand version of PyTorch, focusing on the core features and functionalities essential for machine learning and deep learning applications.
 
+## Table of Contents
 
-Additionally you will need to install and download the MNist library.
+1. [Introduction](#introduction)
+2. [Features](#features)
+3. [Installation](#installation)
+4. [Usage](#usage)
+5. [Examples](#examples)
+6. [Documentation](#documentation)
+7. [Contributing](#contributing)
+8. [License](#license)
 
-(On Mac, this may require installing the `wget` command)
+## Introduction
 
-```
-pip install python-mnist
-mnist_get_data.sh
-```
+MiniTorch MLE is designed for educational purposes and for those who want to get a deeper understanding of how PyTorch works under the hood. It provides a simplified interface while maintaining the core capabilities of PyTorch, such as tensor operations, automatic differentiation, and neural network modules.
 
+## Features
 
-* Tests:
+- **Tensor Operations:** Support for basic and advanced tensor operations.
+- **Automatic Differentiation:** Gradient computation for building and training neural networks.
+- **Neural Network Modules:** Simplified implementation of common neural network layers and modules.
+- **Optimizers:** Basic optimization algorithms for training models.
+- **Loss Functions:** Common loss functions used in training neural networks.
+- **Device Support:** CPU support with a straightforward path to add GPU support if needed.
 
-```
-python run_tests.py
-```
+## Installation
 
-This assignment requires the following files from the previous assignments. You can get these by running
+To install MiniTorch MLE, clone the repository and install the required dependencies:
 
 ```bash
-python sync_previous_module.py previous-module-dir current-module-dir
+git clone https://github.com/yourusername/minitorch_MLE.git
+cd minitorch_MLE
+pip install -r requirements.txt
+
 ```
 
-The files that will be synced are:
+## Usage
 
-        minitorch/tensor_data.py minitorch/tensor_functions.py minitorch/tensor_ops.py minitorch/fast_ops.py minitorch/cuda_ops.py minitorch/operators.py minitorch/module.py minitorch/autodiff.py minitorch/module.py project/run_manual.py project/run_scalar.py project/run_tensor.py project/run_fast_tensor.py project/parallel_check.py tests/test_tensor_general.py
+As an example, run run_torch.py.
+
+```python
+python project/run_torch.py
+```
+
+Adjust parameters between lines 83-87 to experiment with various settings.
+
+
+
+
